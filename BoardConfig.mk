@@ -53,5 +53,8 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/wlan/qcacld-3.0/.kiwi_v2 \
     qcom/opensource/bt-kernel
 
+# Vendor props
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # Include the proprietary files BoardConfig.
 include vendor/samsung/dm3q/BoardConfigVendor.mk
