@@ -147,6 +147,7 @@ vendor/lib64/libcom.qti.chinodeutils.so
 vendor/lib64/libmulticam_image_optical_zoom.so
 vendor/lib64/libmulticam_optical_zoom_control.so
 vendor/lib64/libmulticam_video_optical_zoom.so
+vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libswb_interface.so
 
 # Camera firmware
