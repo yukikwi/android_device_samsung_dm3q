@@ -22,7 +22,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    FrameworksResDm3q
+    FrameworksResDm3q \
+    SystemUIResDm3q
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/samsung/sm8550-common/common.mk)
