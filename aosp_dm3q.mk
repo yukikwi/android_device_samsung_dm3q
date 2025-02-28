@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/samsung/dm3q/device.mk)
 
-# Inherit from the Lineage configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from the PixelOS configuration.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_dm3q
+PRODUCT_NAME := aosp_dm3q
 PRODUCT_DEVICE := dm3q
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := SM-S918B
